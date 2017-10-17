@@ -36,7 +36,6 @@ var preload = function() {
 
   TP.game.time.advancedTiming = true;
 
-  TP.game.load.atlasJSONHash('assets', 'Assets/assets.png', 'Assets/assets.json');
   TP.game.load.image('bulletType2', 'Assets/Original Sprites/BulletType2.png');
   TP.game.load.image('background', 'Assets/Map1.png');
 }
