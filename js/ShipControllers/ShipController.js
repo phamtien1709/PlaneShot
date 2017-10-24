@@ -4,6 +4,7 @@ class ShipController {
     this.sprite.body.collideWorldBounds = true;
     this.configs = configs;
     this.sprite.anchor = new Phaser.Point(0.5, 0.5);
+    this.sprite.body.setCircle(this.sprite.width/2, 15, 15);
     this.nextShoot = 0;
     this.sprite.update = this.update.bind(this);
   }
